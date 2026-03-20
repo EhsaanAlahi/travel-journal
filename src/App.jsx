@@ -7,7 +7,7 @@ export default function App() {
     <div>
       <Header />
       <Entery/>
-      <p>Welcome to my travel journal app!</p>
+      
     </div>
   );
 }

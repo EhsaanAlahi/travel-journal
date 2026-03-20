@@ -15,5 +15,53 @@ Header{
 }
 article.jornal-entery{
   display: flex;
-
+ margin-top: 20px;
+ margin-left: 20px;
+}
+article.jornal-entery .image-container{
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+ article.jornal-entery .main-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+article.jornal-entery .marker{
+  width: 7px;
+  
+  margin-right: 4px;
+}
+.info-container span.country{
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-left: 12px;
+}
+.info-container a {
+  color: #2B283A;
+  font-size: 0.7rem;
+  margin-left: 12px;
+    
+}
+.info-container a:visited {
+    color: #918E9B;
+}
+.info-container h2.title {
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+.info-container p.trip-date {
+    font-weight: bold;
+}
+.info-container p.trip-discription {
+    line-height: 1.5;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }
