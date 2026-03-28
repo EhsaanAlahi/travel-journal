@@ -1,4 +1,4 @@
-import globe from "../assets/globe.png"; // correct path + extension
+import globe from "../assets/globe.png";
 
 export default function Header() {
   return (
